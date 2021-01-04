@@ -1,38 +1,38 @@
 [[marble]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "8b68361f4c806034cc9726a4676c17dcbfce3c7f"
+git-tree-sha1 = "7c263bc517d8fc9a2854f605465d3957d6fa9233"
 libc = "glibc"
 os = "linux"
 
     [[marble.download]]
-    sha256 = "20d80587d6f81d600323d9da7d7141eda34a00f1145a4f0b9a8be7a6cb6b0a2a"
-    url = "https://github.com/JuliaBinaryWrappers/marble_jll.jl/releases/download/marble-v20.12.0+0/marble.v20.12.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "4b72e4bd09c8449e3bdc19e5fde058316474dc2a08a00261bc9dcf0d98c9e5c1"
+    url = "https://github.com/JuliaBinaryWrappers/marble_jll.jl/releases/download/marble-v20.12.0+1/marble.v20.12.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[marble]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "de5e7bcc38aee24b5f0659892c7dab3e219b84c1"
+git-tree-sha1 = "5f5991f62e61fa51742fbb548c68c159f7fc8062"
 libc = "glibc"
 os = "linux"
 
     [[marble.download]]
-    sha256 = "eeeefdf4a5d4b8df5e0f1b681a358a94b0062e57592bfa65333ab403705ff766"
-    url = "https://github.com/JuliaBinaryWrappers/marble_jll.jl/releases/download/marble-v20.12.0+0/marble.v20.12.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "1171f2953bbf559eb42fa5863860ad93583e77f701a0c76c546d5d722fe72f41"
+    url = "https://github.com/JuliaBinaryWrappers/marble_jll.jl/releases/download/marble-v20.12.0+1/marble.v20.12.0.x86_64-linux-gnu-cxx11.tar.gz"
 [[marble]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "a3cd31569b4ef11ef42dba080054698e220d19b8"
+git-tree-sha1 = "a459b4bb092a214f1dec62bc8c768bc98190f600"
 os = "windows"
 
     [[marble.download]]
-    sha256 = "4d058a309a3439ff089a093516b4050c1fdb1c142e87412c549e10779b897a31"
-    url = "https://github.com/JuliaBinaryWrappers/marble_jll.jl/releases/download/marble-v20.12.0+0/marble.v20.12.0.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "2944ed9bdc094e5dcb680fe67a92f30ab142c61818799fcb68fabfeb8c2d538c"
+    url = "https://github.com/JuliaBinaryWrappers/marble_jll.jl/releases/download/marble-v20.12.0+1/marble.v20.12.0.x86_64-w64-mingw32-cxx03.tar.gz"
 [[marble]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4d094d8821b58f527d7ea90e178ecd89098562d2"
+git-tree-sha1 = "a60dbe25ab1d7c743f5a1e95b9a35a0a717ebf4a"
 os = "windows"
 
     [[marble.download]]
-    sha256 = "b253985cf814c2f063f5733d51e35d6ea781581783e0488549882e55b8758428"
-    url = "https://github.com/JuliaBinaryWrappers/marble_jll.jl/releases/download/marble-v20.12.0+0/marble.v20.12.0.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "c4fc8a346af686251170de32fa89659338830f5d0985065b49e7168f0aa33d01"
+    url = "https://github.com/JuliaBinaryWrappers/marble_jll.jl/releases/download/marble-v20.12.0+1/marble.v20.12.0.x86_64-w64-mingw32-cxx11.tar.gz"
