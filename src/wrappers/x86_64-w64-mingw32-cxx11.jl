@@ -6,8 +6,8 @@ using Libglvnd_jll
 using OpenSSL_jll
 JLLWrappers.@generate_wrapper_header("marble")
 JLLWrappers.@declare_library_product(astro, "libastro.dll")
-JLLWrappers.@declare_executable_product(marble_qt)
 JLLWrappers.@declare_library_product(marblewidget, "libmarblewidget-qt5.dll")
+JLLWrappers.@declare_executable_product(marble_qt)
 function __init__()
     JLLWrappers.@generate_init_header(Qt_jll, Libglvnd_jll, OpenSSL_jll)
     JLLWrappers.@init_library_product(
@@ -16,15 +16,15 @@ function __init__()
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
-    JLLWrappers.@init_executable_product(
-        marble_qt,
-        "bin\\marble-qt.exe",
-    )
-
     JLLWrappers.@init_library_product(
         marblewidget,
         "bin\\libmarblewidget-qt5.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_executable_product(
+        marble_qt,
+        "bin\\marble-qt.exe",
     )
 
     JLLWrappers.@generate_init_footer()
