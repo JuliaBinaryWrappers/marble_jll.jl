@@ -1,38 +1,38 @@
 [[marble]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "446fdb8cd6028598b5165a7eabb35c5c8fbd4528"
+git-tree-sha1 = "0a18ff6fed39ef9e901c1dc002720a4685913877"
 libc = "glibc"
 os = "linux"
 
     [[marble.download]]
-    sha256 = "fbf8aa524919685020ea7157719bea96882d2e6a395ea24b03e73d48e6136c5c"
+    sha256 = "7c4156e9137325fee4e62f4aeb9e96ae087c7334bb18c9482a084c90e4d6454a"
     url = "https://github.com/JuliaBinaryWrappers/marble_jll.jl/releases/download/marble-v23.3.90+0/marble.v23.3.90.x86_64-linux-gnu-cxx03.tar.gz"
 [[marble]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "45b486abcf19bd9151218fa46ac19a50bff3c63a"
+git-tree-sha1 = "74c2bc2e9b23d32cb8acbc3d5f91b4e96073771c"
 libc = "glibc"
 os = "linux"
 
     [[marble.download]]
-    sha256 = "058f6ba3409af03203909cd95752cba8a388fd80668be3cf33d2f92f4ceef939"
+    sha256 = "ed088984922fdacecb922843c4dd824073a4515d6f2e0daddb9d636f4fbff6d0"
     url = "https://github.com/JuliaBinaryWrappers/marble_jll.jl/releases/download/marble-v23.3.90+0/marble.v23.3.90.x86_64-linux-gnu-cxx11.tar.gz"
 [[marble]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "4b0898675757feb6d43f7430fb34995685748018"
+git-tree-sha1 = "d765d742bd01282a831e9f6f0c8a200d3a8d9b98"
 os = "windows"
 
     [[marble.download]]
-    sha256 = "301d1da857fae80c55e5cd0766bfb1c508e81e17a63560dc056612cc274af5e5"
+    sha256 = "6af38843d1339f1bfdc7938f1143091bd4b9075690b35e9e169baf1955551484"
     url = "https://github.com/JuliaBinaryWrappers/marble_jll.jl/releases/download/marble-v23.3.90+0/marble.v23.3.90.x86_64-w64-mingw32-cxx03.tar.gz"
 [[marble]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "acfea22ebb23cd55e2bf97e280e09a9fb1c5e96c"
+git-tree-sha1 = "05b0db1b8a709927b2655e0a0f91b77c8d39bdd6"
 os = "windows"
 
     [[marble.download]]
-    sha256 = "16fa4d4aa278e405936cc504a63e1b3a2c7957308fb186c1016ab48265982119"
+    sha256 = "811d488ef74163e01648caa01a18665e026f5a4d4cbb01e0aa2bf31a0592ba0d"
     url = "https://github.com/JuliaBinaryWrappers/marble_jll.jl/releases/download/marble-v23.3.90+0/marble.v23.3.90.x86_64-w64-mingw32-cxx11.tar.gz"
